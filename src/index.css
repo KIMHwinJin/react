@@ -1,62 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-    list-style: none;
-}
-
-.APP {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 16px;
+  list-style: none;
 }
 
 body {
-    background-color: #eee;
+  background-color: #eee;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
 .list {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .note {
-    background-color: #fff;
-    padding: 16px;
+  background: #fff;
+  padding: 16px;
 }
 
 .note h3 {
-    margin-top: 8px;
-    margin-bottom: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.note p {
+  font-size: 14px;
 }
 
 .note .bottom {
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
 
-.note p P{
-    font-size: 14px;
-}
-
-.note .bottom.date{
-    margin-right: auto;
-    font-size: 16px;
-    color: #666;
+.note .bottom .date {
+  margin-right: auto;
+  font-size: 14px;
+  color: #666;
 }
